@@ -1,0 +1,16 @@
+{
+    "name": "BacklogTimEnforcementExtension",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "BackLogの余実を徹底させるChrome拡張",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.backlog.com/*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
